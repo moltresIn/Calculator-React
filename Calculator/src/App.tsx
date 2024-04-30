@@ -1,4 +1,4 @@
-import Message from "./simple.tsx";
+import Message from "./connect.tsx";
 
 function App(){
   return <div> <Message></Message> </div>
