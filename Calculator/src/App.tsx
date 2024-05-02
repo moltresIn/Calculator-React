@@ -1,7 +1,12 @@
-import Message from "./connect.tsx";
+import Hello from "./components/simple.tsx";
 
-function App(){
-  return <div> <Message></Message> </div>
+function App() {
+  return (
+    <div>
+      {" "}
+      <Hello></Hello>{" "}
+    </div>
+  );
 }
 
-export default App
+export default App;
